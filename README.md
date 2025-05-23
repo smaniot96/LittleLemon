@@ -3,13 +3,10 @@
 This is a Django REST API for managing menu items, table bookings, and user authentication in a restaurant app. It uses Django REST Framework and Djoser.
 
 ## 🚀 Setup Instructions
-
+activate your virtual environment, then:
 ```bash
 git clone https://github.com/smaniot96/LittleLemon.git
 cd myproject
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
