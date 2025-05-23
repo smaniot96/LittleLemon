@@ -6,7 +6,6 @@ This is a Django REST API for managing menu items, table bookings, and user auth
 activate your virtual environment, then:
 ```bash
 git clone https://github.com/smaniot96/LittleLemon.git
-cd myproject
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
